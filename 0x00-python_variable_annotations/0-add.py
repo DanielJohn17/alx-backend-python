@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 '''Module with type-annotated function add that
     takes two floats and returns their sum'''
 
