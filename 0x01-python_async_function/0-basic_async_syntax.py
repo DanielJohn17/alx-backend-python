@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+'''Module to execute single coroutine with async'''
+from random import uniform
+import asyncio
+
+
+async def wait_random(max_delay: int = 10) -> float:
+    '''Asynchronous coroutine that waits for a random delay and returns it'''
+    delay = uniform(0, max_delay)
+    await asyncio.sleep(delay)
+
+    return delay
