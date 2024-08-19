@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 '''Module to execute single coroutine with async'''
 from random import uniform
 import asyncio
