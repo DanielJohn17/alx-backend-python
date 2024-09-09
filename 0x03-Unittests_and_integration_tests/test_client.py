@@ -94,10 +94,10 @@ class TestGithubOrgClient(unittest.TestCase):
         ({'license': {'key': "other_license"}}, "my_license", False),
     ])
     def test_has_license(
-            self,
-            repo: Dict,
-            key: str,
-            expected: bool
+        self,
+        repo: Dict,
+        key: str,
+        expected: bool
     ) -> None:
         '''Test has_license method'''
         gh_org_client = GithubOrgClient("google")
