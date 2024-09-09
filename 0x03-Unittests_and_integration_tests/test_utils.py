@@ -66,7 +66,7 @@ class TestGetJson(unittest.TestCase):
             req_get.assert_called_once_with(test_url)
 
 
-class TestMemorize(unittest.TestCase):
+class TestMemoize(unittest.TestCase):
     '''Test suite for memoize function'''
 
     def test_memoize(self) -> None:
